@@ -1,0 +1,32 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# WorkBuddy / IDE 工作目录
+.workbuddy/
+.playwright-cli/
+
+# 测试截图和 yaml（开发调试用，不需要上传）
+after-add-click.png
+after-add-success.png
+peers-card.png
+peers-fixed.png
+peers-scrolled.png
+initial.yaml
+reload.yaml
+
+# 环境变量（不要上传真实 API key）
+.env
+.env.local
+
+# Node 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
